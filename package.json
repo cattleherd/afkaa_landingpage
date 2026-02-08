@@ -9,9 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@rive-app/react-canvas": "^4.26.2",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "react-mobile-app-button": "^1.2.19"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",

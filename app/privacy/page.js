@@ -1,10 +1,9 @@
 import Link from "next/link";
-import RiveHero from "../rive-hero-privacy"; // adjust path if needed
+import RiveHero from "../rive-hero-privacy";
 
 export default function PrivacyPage() {
   return (
     <main className="min-h-screen bg-black text-neutral-300">
-      
       {/* Header */}
       <header className="mx-auto flex max-w-3xl items-center justify-between px-[5%] py-8">
         <Link
@@ -14,21 +13,17 @@ export default function PrivacyPage() {
           ← Afkaa
         </Link>
 
-        <span className="text-sm text-neutral-500">
-          Privacy Policy
-        </span>
+        <span className="text-sm text-neutral-500">Privacy Policy</span>
       </header>
 
       {/* Content */}
       <article className="mx-auto max-w-2xl px-[5%] pb-20">
-
-        {/* --- RIVE ANIMATION (ADDED ONLY THIS BLOCK) --- */}
+        {/* --- RIVE ANIMATION --- */}
         <div className="w-full flex justify-center mb-8">
-  <div className="w-[clamp(150px,18vw,200px)] aspect-square">
+          <div className="w-[clamp(150px,18vw,200px)] aspect-square">
             <RiveHero />
           </div>
         </div>
-        {/* ------------------------------------------------ */}
 
         <h1 className="text-3xl font-semibold tracking-tight text-white">
           Privacy Policy
@@ -40,7 +35,6 @@ export default function PrivacyPage() {
 
         {/* Body */}
         <div className="mt-10 space-y-8 text-[15px] leading-relaxed">
-          
           <p>
             Afkaa is a language-learning app. This policy explains what we
             collect, how we use it, and what choices you have.
@@ -58,9 +52,7 @@ export default function PrivacyPage() {
                 basic performance data (like crashes) to keep the app working.
               </li>
               <li>
-                <strong className="text-neutral-200">
-                  Progress data:
-                </strong>{" "}
+                <strong className="text-neutral-200">Progress data:</strong>{" "}
                 lesson progress and scores, stored to support your learning
                 experience.
               </li>
@@ -87,26 +79,11 @@ export default function PrivacyPage() {
           </section>
 
           <section className="space-y-3">
-            <h2 className="text-lg font-semibold text-white">
-              Data retention
-            </h2>
+            <h2 className="text-lg font-semibold text-white">Data retention</h2>
             <p>
               We keep data only as long as needed for the purposes above, unless
               a longer period is required by law.
             </p>
-          </section>
-
-          <section className="space-y-3">
-            <h2 className="text-lg font-semibold text-white">
-              Your choices
-            </h2>
-            <ul className="list-disc pl-5 space-y-2">
-              <li>You can uninstall the app at any time.</li>
-              <li>
-                If the app includes analytics settings, you can opt out where
-                available.
-              </li>
-            </ul>
           </section>
 
           <section className="space-y-3">
@@ -123,12 +100,9 @@ export default function PrivacyPage() {
             <h2 className="text-lg font-semibold text-white">Contact</h2>
             <p>
               If you have questions about this policy, contact:{" "}
-              <strong className="text-neutral-200">
-                radwan@afkaa.com
-              </strong>
+              <strong className="text-neutral-200">radwan@afkaa.com</strong>
             </p>
           </section>
-
         </div>
       </article>
     </main>

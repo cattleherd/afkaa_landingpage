@@ -82,7 +82,7 @@ export default function HomePage() {
           {/* Footer Navigation */}
           <Link
             href="/privacy"
-            className="text-xs text-neutral-500 hover:text-neutral-300 pt-2"
+            className="text-xs text-neutral-500 hover:text-neutral-300 pt-2 "
           >
             Privacy & Terms
           </Link>

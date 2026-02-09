@@ -24,7 +24,7 @@ export default function PrivacyPage() {
 
         {/* --- RIVE ANIMATION (ADDED ONLY THIS BLOCK) --- */}
         <div className="w-full flex justify-center mb-8">
-          <div className="h-[25vh] w-[25vh]">
+          <div className="h-[15vh] w-[15vh]">
             <RiveHero />
           </div>
         </div>

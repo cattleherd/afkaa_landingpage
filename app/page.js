@@ -6,7 +6,7 @@ import RiveHero from "./rive-hero";
 import { GooglePlayButton } from "react-mobile-app-button";
 
 const PLAY_STORE_URL =
-  "https://play.google.com/store/apps/details?id=YOUR.PACKAGE.NAME";
+  "https://play.google.com/store/apps/details?id=com.anonymous.afkaa";
 
 /*
 ------------------------------------------------------------------------------

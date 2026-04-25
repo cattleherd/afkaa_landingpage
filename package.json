@@ -9,8 +9,9 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@rive-app/react-canvas": "^4.26.2",
-    "framer-motion": "^12.33.0",
+    "@rive-app/react-canvas": "^4.28.2",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.11.0",
     "next": "16.1.6",
     "react": "19.2.3",
     "react-dom": "19.2.3",
